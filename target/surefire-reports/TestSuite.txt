@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 100.283 sec <<< FAILURE! - in TestSuite
+signupPage(com.model.MavenMercuryDemo.MercuryTest)  Time elapsed: 0.04 sec  <<< FAILURE!
+java.lang.AssertionError: Titles of signup page are not match expected [Sign-on: Mercury Tours] but found [Sign-on Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.model.MavenMercuryDemo.MercuryTest.signupPage(MercuryTest.java:63)
+
